@@ -18,6 +18,23 @@
         </ul>
     </nav>
 
+    <h1>Contact us</h1>
+    <p>Wanna reach us? Write your email information and message in the following form and then submit.</p>
+
+    <form action="">
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <input type="text" id="message">
+        </div>
+        <button id="send_Btn">Send!</button>
+    </form>
+
+    <p id="numOfPageVisits">0 page visits.</p>
+    
 </body>
 </html>
 
