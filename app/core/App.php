@@ -31,6 +31,7 @@ class App{
                     'Contact/submit' => 'Contact,submit',
                     'Contact/read' => 'Contact,read',
                     'Main/index' => 'Main,index',
+                    'Main/about_us' => 'Main,about_us',
                     'Count/index' => 'Count,index',
                 ];
 
