@@ -18,6 +18,18 @@
         </ul>
     </nav>
 
+    <h1>About Us</h1>
+    <p>See our incredible team of devs</p>
+    <div>
+        <div>
+            <img src="male_devs_image.jpg" alt="Loading...">
+            <p>Bob loves making money on the stock market floor.</p>
+        </div>
+        <div>
+            <img src="female_devs_image.jpg" alt="Loading...">
+            <p>Amy keeps Johnny in check</p>
+        </div>
+    </div>
 </body>
 </html>
 

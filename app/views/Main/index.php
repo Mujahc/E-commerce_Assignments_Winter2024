@@ -19,12 +19,11 @@
     </nav>
 
     <h1>Landing Page</h1>
-    <h5><p>Welcome to this Web application.</p></h5>
+    <p>Welcome to this Web application.</p>
     <br>
-    <h5><p>We aim to please.</p></h5>
+    <p>We aim to please.</p>
     
-    
-    <h5><p>0 page visits.</p></h5>
+    <p id="numOfPageVisits">0 page visits.</p>
 
 </body>
 </html>
