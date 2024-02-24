@@ -18,7 +18,19 @@
         </ul>
     </nav>
 
-    <h1>Contact us</h1>
+    <h1>Contact us - message sent</h1>
+    <?php
+		foreach($data as $message){
+			echo 
+                "<tr>
+                    <td>$message->email</td>
+                    <td>$message->message</td>
+                </tr>";
+		}
+    ?>
+
+    <p id="numOfPageVisits">0 page visits.</p>
+    
 </body>
 </html>
 

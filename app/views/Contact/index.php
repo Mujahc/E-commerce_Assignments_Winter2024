@@ -21,14 +21,14 @@
     <h1>Contact us</h1>
     <p>Wanna reach us? Write your email information and message in the following form and then submit.</p>
 
-    <form action="">
+    <form action="/Contact/submit">
         <div>
             <label for="email">Email:</label>
             <input type="email" id="email">
         </div>
         <div>
             <label for="message">Message:</label>
-            <input type="text" id="message">
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
         </div>
         <button id="send_Btn">Send!</button>
     </form>

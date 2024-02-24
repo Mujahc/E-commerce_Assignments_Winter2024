@@ -30,7 +30,9 @@ class App{
         $routes = ['Contact/index' => 'Contact,index',
                     'Contact/submit' => 'Contact,submit',
                     'Contact/read' => 'Contact,read',
-                    ];
+                    'Main/index' => 'Main,index',
+                    'Count/index' => 'Count,index',
+                ];
 
         //one by one compare the url to resolve the route
         foreach ($routes as $routeUrl => $controllerMethod) {
@@ -44,7 +46,6 @@ class App{
                 break;
             }
         }
-
 
     }
 }
