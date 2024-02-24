@@ -1,1 +1,1 @@
-docker run --name myXampp -p 22:22 -p 80:80 -d -v C:\Users\2147185\Documents\GitHub\CS-Winter-2024\E-commerce:/opt/lampp/htdocs tomsik68/xampp
+docker run --name myXampp -p 22:22 -p 80:80 -d -v C:\Users\johan\OneDrive\Documents\GitHub\E-commerce_Assignments_Winter2024:/opt/lampp/htdocs tomsik68/xampp
